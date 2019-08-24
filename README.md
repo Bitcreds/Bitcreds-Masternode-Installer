@@ -31,6 +31,6 @@ examples when it's working :
 
 #### PLEASE READ https://crds.co/documents/masternode-setup.pdf ####
 
-## Donations are not required, but are appreciated
-#CRDS CX9LCYhp2rEbmAi1Ur3LAXU1GLLLjk3qqU
-#BTC 3BixhaziZbwY9HHgvFMBqbaZ5M2bPjhSCy
+### Donations are not required, but are appreciated
+1. CRDS-WALLET CX9LCYhp2rEbmAi1Ur3LAXU1GLLLjk3qqU
+2. BTC-WALLET 3BixhaziZbwY9HHgvFMBqbaZ5M2bPjhSCy
