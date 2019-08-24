@@ -14,7 +14,22 @@ bash ./credits-auto.sh
 
 #### Run the qt wallet, go to MASTERNODE tab, click "Start Alias" at the bottom or right click on your masternode (before unlock your addresses under inputs.)
 
-#### PLEASE READ https://crds.co/documents/masternode-setup.pdf
+```
+use "credits-cli masternode status" to see if your masternode is working propertly.
+1. "status": "Node just started, not yet acitvated" // This means that your masternode has been activated and you have to wait at least one hour to check if the status has been changed.
+2. "status": "Masternode successfully started" // This means that your masternode is working and the masternode is successfully started.
+
+examples when it's working : 
+~/credits-auto# credits-cli masternode status
+{
+  "vin": "CTxIn(COutPoint(xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, 0), scriptSig=)",
+  "service": "xxx.xx.xx.xxx:31000",
+  "payee": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "status": "Masternode successfully started"
+}
+```
+
+#### PLEASE READ https://crds.co/documents/masternode-setup.pdf ####
 
 ## Donations are not required, but are appreciated
 #CRDS CX9LCYhp2rEbmAi1Ur3LAXU1GLLLjk3qqU
