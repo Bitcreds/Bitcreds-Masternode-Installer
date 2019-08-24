@@ -15,7 +15,7 @@ bash ./credits-auto.sh
 #### Run the qt wallet, go to MASTERNODE tab, click "Start Alias" at the bottom or right click on your masternode (before unlock your addresses under inputs.)
 
 ```
-use "credits-cli masternode status" to see if your masternode is working propertly.
+use "credits-cli masternode status" to see if your masternode is working properly.
 1. "status": "Node just started, not yet acitvated" // This means that your masternode has been activated and you have to wait at least one hour to check if the status has been changed.
 2. "status": "Masternode successfully started" // This means that your masternode is working and the masternode is successfully started.
 
